@@ -90,7 +90,7 @@ document.addEventListener("keyup", function(event) {
             blankLetters.push("_");
         };
         myCorrectLetters.innerHTML = (blankLetters.join(" "));
-        myGuessesLeft.innerHTML = ("Number of Guesses Remaining: " + guesses);
+        // myGuessesLeft.innerHTML = ("Number of Guesses Remaining: " + guesses);
         myGuessedLetters.innerHTML = ("Letters Already Guessed: " + userGuessedLetters.join(", "));
         // Displaying win counter
         var myWins = document.getElementById("wins");
@@ -113,26 +113,6 @@ document.addEventListener("keyup", function(event) {
         myGuessesLeft.innerHTML = ("Number of Guesses Remaining: " + guesses);
         myGuessedLetters.innerHTML = ("Letters Already Guessed: " + userGuessedLetters.join(", "));
     }
-
-    console.log("blankLetters", blankLetters);
-
-
-
-
-
-    // User presses key game starts
-
-
-
-    // User choose for 12 guesses
-
-
-
-    // Counter that displays guesses, wins, and letters already guessed
-
-
-
-    // Reset game once user wins or lose
 
 
 
